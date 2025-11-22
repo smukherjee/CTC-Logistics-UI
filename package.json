@@ -62,5 +62,5 @@
             "dev": "vite",
             "build": "vite build"
       },
-      "homepage": "https://github.com/Infysight/ctc"
+      "homepage": "https://github.com/smukherjee/ctc-logistics-ui"
 }
