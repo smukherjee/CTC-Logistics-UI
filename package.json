@@ -52,11 +52,15 @@
             "@types/react": "^19.2.5",
             "@types/react-dom": "^19.2.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
+            "gh-pages": "^6.3.0",
             "typescript": "^5.9.3",
             "vite": "6.3.5"
       },
       "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build",
             "dev": "vite",
             "build": "vite build"
-      }
+      },
+      "homepage": "https://github.com/Infysight/ctc"
 }
