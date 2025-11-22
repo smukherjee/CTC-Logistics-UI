@@ -8,7 +8,7 @@ import { VehicleManagement } from "./components/VehicleManagement";
 import { Reports } from "./components/Reports";
 import { Settings } from "./components/Settings";
 import { Login } from "./components/Login";
-const ctcLogo = "/ctc-logo.gif";
+import ctcLogo from "./assets/ctc-logo.gif";
 import DispatchRegister from "./components/DispatchRegister";
 import InvoiceBuilder from "./components/InvoiceBuilder";
 import MarkDelivered from "./components/MarkDelivered";
